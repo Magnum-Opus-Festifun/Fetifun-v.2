@@ -1,0 +1,64 @@
+// Lay.scss
+
+@import "bootstrap/scss/bootstrap";
+
+$font-family-base: 'Poppy', sans-serif;
+$font-family-sans-serif: 'Poppy', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppy', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.lay-container {
+  // Add any additional styling for the main container if needed
+}
+
+.sidebar {
+  // Styles for the sidebar
+}
+
+.main-content {
+  // Styles for the main content area
+}
+
+.event-section {
+  // Styles for each event section
+}
+
+.event-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2vh;
+  padding: 20px;
+  box-shadow: 2px ;
+  // Additional styling for event cards if needed
+}
+
+.content-card {
+  margin-bottom: 20px;
+
+  .card-img {
+    max-height: 150px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Poppy', sans-serif;
+  }
+
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Poppy', sans-serif;
+  }
+}

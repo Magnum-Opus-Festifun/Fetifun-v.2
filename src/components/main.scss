@@ -1,0 +1,183 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+.navbar-container{
+  // box-shadow: 0 0px 4px 4px #3F475A;
+  
+}
+.NavText{
+  color: #3F475A;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.LB{
+  color: #FAFAFB;
+  margin-right: 10px;
+}
+
+.RB{
+  color: #3F475A;
+  margin-right: 20px;
+}
+
+.LButton{
+  text-decoration: none;
+  color: #3F475A;
+  font-weight: bold;
+}
+
+.RButton{
+  text-decoration: none;
+  color: #FAFAFB;
+  font-weight: bold;
+}
+
+.RButton:hover{
+  color: #3F475A;
+}
+
+// Footer
+
+
+.footer-container {
+  background-color: #FAFAFB;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left-section {
+  flex: 1;
+  max-width: 30%;
+  margin-left: 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: end;
+  color: #3F475A;
+  width: 40%;
+}
+.middle-section h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.middle-section ul li {
+ cursor: pointer;
+}
+
+.event-plans,
+.festifun {
+  margin-right: 70px;
+  
+}
+
+.event-plans ul,
+.festifun ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-section {
+  flex: 1;
+  color: #3F475A;
+  display: flex;
+  justify-content: end;
+}
+
+.stay-connected {
+  margin-bottom: 20px;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.email-input input {
+  border-radius: 6px;
+  border: 1px solid #A6AEBB;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100%; 
+}
+.email-input button {
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+  width: 100%; 
+  font-weight: bold;
+  background-color: #1250A2;
+  color: #FAFAFB;
+  transition: transform 0.3s ease; 
+}
+.email-input button:active{
+  background-color: #10468E;
+}
+
+.footer-line {
+  width: 100%;
+  margin: 20px 0;
+  color: #3F475A;
+}
+
+.copyright {
+  text-align: center;
+  color: #3F475A;
+  font-size: 12px;
+}
+
+.buttonNavbar{
+
+}
+.btn-login {
+  margin-right: 20px;
+  background-color: #10468E;
+}
+
+.btn-text{
+  text-decoration: none;
+  color: #FAFAFB;
+  font-weight: bold;
+}
+
+.btn-register {
+  background-color: #FAFAFB;
+}
+.btn-register {
+  .btn-text{
+    color: #1250A2;
+  }
+}
+
+.btn-login:hover{
+  background-color: #FAFAFB;
+  .btn-text{
+    color: #1250A2;
+  }
+}
+
+
+.btn-register:hover{
+  background-color: #1250A2;
+  .btn-text{
+    color: #FAFAFB;
+  }
+}

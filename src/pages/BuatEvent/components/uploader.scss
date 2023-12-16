@@ -1,0 +1,11 @@
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed ;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45vh;
+    width: auto;
+}
