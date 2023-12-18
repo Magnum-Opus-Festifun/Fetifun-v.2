@@ -1,27 +1,3 @@
-// import { useEffect, useState } from "react";
-// import { BangunJowo, Ceremony, FBudaya, amikom } from "../../../../assets/main"
-// import CardComponent from "../../../../components/molecules/Card"
-
-
-
-// function RekomendasiList() {
-//   fetch('http://localhost:4000/events')
-//   .then(response => response.json())
-//   .then(data => console.log(data))
-//   .catch(error => console.error(error));
-//   return (
-//     <div className="card-container">
-//        <CardComponent image={amikom} title="AMIKOM FEST 2023 BE YOUNG FOREVER" price='50.000'/>
-//       <CardComponent image={Ceremony} title="CLOSING CEREMONY - CONTINUE THE CHAPTER TO BECOME STONGER" price='50.000'/>
-//       <CardComponent image={FBudaya} title="FESTIVAL BUDAYA LERENG MERAPI PAKEM SLEMAN" price='50.000'/>
-//       <CardComponent image={BangunJowo} title="BANGUNJUWO FESTIFAL #2 SEKAR MATARAM" price='50.000'/>
-//     </div>
-//   )
-// }
-
-// export default RekomendasiList
-
-
 import  { useEffect, useState } from 'react';
 import CardComponent from "../../../../components/molecules/Card"
 import axios from 'axios';

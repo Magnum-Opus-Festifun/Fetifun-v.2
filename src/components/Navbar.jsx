@@ -28,8 +28,10 @@ function NavBar() {
             
             </div>
           <div className='buttonNavbar'>
+            
             <Button className='btn-login'> <NavLink to='/login' className='btn-text'>Masuk</NavLink> </Button>
             <Button className='btn-register'><NavLink to='/register' className='btn-text'>Daftar</NavLink></Button>
+
           </div>
         </Navbar.Collapse>
 

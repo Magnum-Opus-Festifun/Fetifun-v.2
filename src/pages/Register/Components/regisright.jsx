@@ -96,7 +96,7 @@ function Regisright() {
             <option value="eo">EO (Event Organizer)</option>
           </Form.Select>
         </Form.Group>
-
+        
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label><Envelope />Email</Form.Label>
           <Form.Control
@@ -133,12 +133,7 @@ function Regisright() {
         )}
         <br />
         <p>Sudah punya akun? <Link to='/login'>Login</Link></p>
-        {/* <div className="mt-3">
-          <p>Atau lanjutkan melalui:</p>
-          <div className="ms-5 mt-2" >
-
-          </div>
-        </div> */}
+   
       </Form>
     </div>
   );
